@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Monoton&family=Noto+Kufi+Arabic:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Ubuntu&family=Young+Serif&display=swap');
 
+
+
+
 body{
     background: hsl(30, 54%, 90%);
     height: auto;
     font-family: "Young Serif", serif;
+    line-height: 2;
 }
 .header{
     height: auto;
@@ -14,7 +18,7 @@ body{
 .container{
     height: auto;
     width: 50%;
-    margin: 30px 0;
+    margin: 120px 0 0 0;
     background: #fff;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -32,19 +36,20 @@ img{
 }
 .paragraph p{
    padding: 0 10px;
-    font-size: 10px;
+    font-size: 16px;
     margin-top: -15px;
     color: hsl(32, 9.80%, 33.90%);
 }
 .head{
+    font-size: 28px;
     margin-top: -10px;
     margin-left: 12px;
     color: hsl(32, 9.80%, 33.90%);
 }
  h6{
     color:  hsl(332, 51%, 32%);
-    margin-left: 22px;
-    font-size: 11px;
+    margin-left: 19px;
+    font-size: 18px;
 }
 span{
     color: hsl(24, 5%, 18%);
@@ -53,10 +58,11 @@ span{
   li{
     color: hsl(32, 9.80%, 33.90%);
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 2;
+   
 }
 ul,ol{
-    font-size: 9px;
+    font-size: 16px;
     line-height: 10px;
     margin-top: -10px;
     margin-left: -5px;
@@ -65,7 +71,7 @@ ul,ol{
     margin-left: 5px;
 }
 .Ingredients h5 ,.Instructions h5 ,.Nutrition h5 {
-    font-size: 12px;
+    font-size: 22px;
     color: hsl(14, 45%, 36%);
     margin-left: 12px;
 }
@@ -83,22 +89,21 @@ ol{
     margin-right: 5px;
     margin-left: -13px ;
 }
-.Instructions li{
-    line-height: 1.5;
-}
+
 ol li{
     padding-left: 6px;
+    line-height: 2;
 }
 .Nutrition p{
     margin-left: 11px;
-    font-size: 9px;
+    font-size: 16px;
     margin-top: -10px;
     color: hsl(32, 9.80%, 33.90%);
     font-weight: 600;
 }
 .Nutrition span{
     color:hsl(14, 45%, 36%) ;
-    font-size: 9px;
+    font-size: 16px;
     font-weight: 500;
 }
 .a,.b,.c,.d{
@@ -118,26 +123,13 @@ ol li{
 .table{
     margin-top: 7px;
 }
-.attribution{
-    display: block;
-    font-size: 9px;
-    color: hsl(32, 9.80%, 33.90%);
-    font-weight: 900;
-   text-align: center;
-    margin-top: 30px;
-}
-a{
-    text-decoration: none;
-    color: hsl(228, 45%, 44%);
-}
-.attribution a:hover {
-    text-decoration: underline;
-}
+
     /* for mobile*/
 @media (max-width: 375px) {
     body {
         height: auto;
        background: #fff;
+       
     }
     .header {
         height: auto;
@@ -147,6 +139,8 @@ a{
         width: 50%;
         height: auto;
         flex-wrap: wrap;
+        line-height: 2;
+       
     }
     img {
         height: auto;
@@ -155,6 +149,37 @@ a{
         margin-top: 0;
         border-radius: 0;
     }
+    .head{
+        font-size: 20px;
+
+    }
+
+    .paragraph p{
+
+       font-size: 10px;
+    }
+
+    h6{
+font-size: 13px ;
+
+    }
+    ul,ol{
+        font-size: 10px;
+    }
+
+    .Ingredients h5 ,.Instructions h5 ,.Nutrition h5 {
+        font-size: 16px;
+    }
+
+    .Nutrition span{
+        font-size: 10px;
+    }
+    .Nutrition p{
+        font-size: 10px;
+    }
+
+
+
     }
     
     
