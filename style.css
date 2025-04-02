@@ -13,7 +13,7 @@ body{
 }
 .container{
     height: auto;
-    width: 50%;
+    width: 230px;
     background: #fff;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -31,7 +31,7 @@ img{
 }
 .paragraph p{
    padding: 0 10px;
-    font-size: 12px;
+    font-size: 5.5px;
     margin-top: -15px;
     color: hsl(32, 9.80%, 33.90%);
 }
@@ -43,7 +43,7 @@ img{
  h6{
     color:  hsl(332, 51%, 32%);
     margin-left: 22px;
-    font-size: 12px;
+    font-size: 7px;
 }
 span{
     color: hsl(24, 5%, 18%);
@@ -52,10 +52,10 @@ span{
   li{
     color: hsl(32, 9.80%, 33.90%);
     font-weight: 600;
-    line-height: 2;
+    line-height: 1.5;
 }
 ul,ol{
-    font-size: 12px;
+    font-size: 5.5px;
     line-height: 11px;
     margin-top: -10px;
     margin-left: -5px;
@@ -64,7 +64,7 @@ ul,ol{
     margin-left: 5px;
 }
 .Ingredients h5 ,.Instructions h5 ,.Nutrition h5 {
-    font-size: 16px;
+    font-size: 8px;
     color: hsl(14, 45%, 36%);
     margin-left: 12px;
 }
@@ -83,21 +83,21 @@ ol{
     margin-left: -13px ;
 }
 .Instructions li{
-    line-height: 2;
+    line-height: 1.5;
 }
 ol li{
     padding-left: 6px;
 }
 .Nutrition p{
     margin-left: 11px;
-    font-size: 12px;
+    font-size: 5.5px;
     margin-top: -10px;
     color: hsl(32, 9.80%, 33.90%);
     font-weight: 600;
 }
 .Nutrition span{
     color:hsl(14, 45%, 36%) ;
-    font-size: 12px;
+    font-size: 5.5px;
     font-weight: 500;
 }
 .a,.b,.c,.d{
@@ -119,7 +119,7 @@ ol li{
 }
 .attribution{
     display: block;
-    font-size: 11px;
+    font-size: 5.5px;
     color: hsl(32, 9.80%, 33.90%);
     font-weight: 900;
    text-align: center;
@@ -143,7 +143,7 @@ a{
         width: 100%;
     }
     .container {
-        width: 100%;
+        width: 120px;
         height: auto;
         flex-wrap: wrap;
     }
